@@ -70,23 +70,23 @@
     - Docker에선 `pull` 명령어를 사용하여 image를 다운로드 할 수 있다.
     - 처음 `docker images` 명령어를 입력하면 아무것도 없는 것을 확인할 수 있다.
 
-        ![ft_server/images/Untitled.png](ft_server/images/Untitled.png)
+        ![images/Untitled.png](images/Untitled.png)
 
     - `docker pull debian:buster` 명령어를 입력하여 image를 다운로드 한다.
 
-        ![ft_server/images/Untitled%201.png](ft_server/images/Untitled%201.png)
+        ![images/Untitled%201.png](images/Untitled%201.png)
 
     **2.2 image 확인 및 containner 생성하기**
 
     - image 확인
         - `docker images` 명령어로 잘 다운로드 되었는지 확인한다.
 
-            ![ft_server/images/Untitled%202.png](ft_server/images/Untitled%202.png)
+            ![images/Untitled%202.png](images/Untitled%202.png)
 
     - container 생성
         - `docker run -it -p 80:80 -p 443:443 —name test debian:buster` 명령어로 container를 생성한다.
 
-            ![ft_server/images/Untitled%203.png](ft_server/images/Untitled%203.png)
+            ![images/Untitled%203.png](images/Untitled%203.png)
 
             ```docker
             - docker run 명령어 형태
@@ -104,11 +104,11 @@
     - container 확인
         - 다른 터미널 탭을 띄워 `docker ps` 명령어를 통해 현재 container 상태를 확인할 수 있다.
 
-            ![ft_server/images/Untitled%204.png](ft_server/images/Untitled%204.png)
+            ![images/Untitled%204.png](images/Untitled%204.png)
 
         - container 에 접속한 상태에서 exit 명령어를 통하여 container 를 종료할 수 있다. 종료했을 경우에 `docker ps -a` 명령어를 통해 종료된 것을 확인할 수 있다.
 
-            ![ft_server/images/Untitled%205.png](ft_server/images/Untitled%205.png)
+            ![images/Untitled%205.png](images/Untitled%205.png)
 
         - container를 종료했을 때, container에 다시 접속하고 싶다면 아래 명령어로 가능하다.
 
@@ -125,7 +125,7 @@
     - APT(Advanced Packaging Tool)을 이용하여 container 내부에서 과제를 해결하는데 필요한 프로그램들을 설치해준다.
     - `apt-get update -y`, `apt-get upgrade -y` 명령어를 통해 APT를 최신버전으로 업데이트 해준다.
 
-        ![ft_server/images/Untitled%206.png](ft_server/images/Untitled%206.png)
+        ![images/Untitled%206.png](images/Untitled%206.png)
 
     **3.1 nginx 설치하기**
 
@@ -144,12 +144,12 @@
 
     - service  명령어를 이용하여 nginx 를 시작한 후, 브라우저에서 [`localhost`](http://localhost) 또는 [`localhost:80`](http://localhost:80) 으로 접속하여 상태를 확인한다.
 
-        ![ft_server/images/Untitled%207.png](ft_server/images/Untitled%207.png)
+        ![images/Untitled%207.png](images/Untitled%207.png)
 
     - 해당 페이지가 제대로 뜨지 않을 경우, `https` 로 접속하지 않았는지 확인
     - 만약 해당 방법으로도 조회가 되지 않을 경우, `apt-get install curl` 명령어를 이용하여 `curl` 설치하여 `curl localhost` 명령어를 사용하여 소스가 조회되는지 확인한다.
 
-        ![ft_server/images/Untitled%208.png](ft_server/images/Untitled%208.png)
+        ![images/Untitled%208.png](images/Untitled%208.png)
 
 4. SSL Protocol 사용
 
@@ -188,7 +188,7 @@
         - keyout: `.key` 파일명을 지정
         - out: `.crt` 파일명을 지정
 
-    ![ft_server/images/Untitled%209.png](ft_server/images/Untitled%209.png)
+    ![images/Untitled%209.png](images/Untitled%209.png)
 
     **4.3 Nginx에 SSL Protocol을 추가하기**
 
@@ -332,7 +332,7 @@
     - `apt-get install php-fpm` 명령어로 php-fpm을 설치한다.
     - 설치가 완료되었으면, nginx의 default 파일을 수정하여 php-fpm과 연동한다.
 
-        ![ft_server/images/Untitled%2010.png](ft_server/images/Untitled%2010.png)
+        ![images/Untitled%2010.png](images/Untitled%2010.png)
 
     - fastcgi_pass 편집 시, 설치된 php-fpm의 버전과 맞게 기재해주어야 한다. 이번 케이스에선 설치된 php-fpm의 버전은 7.3이므로, php7.3-fpm.sock으로 설정하였다.
     - 또한 현재 상황은 redirection된 경우이기 때문에 https 설정인 listen 443이 있는 블록에 설정해주어야 한다.
@@ -345,7 +345,7 @@
     - `service nginx reload` 명령어로 nginx를 재시작 한다.
     - [https://localhost/phpinfo.php](https://localhost/phpinfo.php) 로 접속하여 잘 적용되었는지 확인한다.
 
-        ![ft_server/images/Untitled%2011.png](ft_server/images/Untitled%2011.png)
+        ![images/Untitled%2011.png](images/Untitled%2011.png)
 
 6. MySQL과 phpmyadmin 설치
     - SQL Database가 Wordpress와 phpmyadmin과 연동될 수 있도록 MySQL과 phpmyadmin을 설치한다.
@@ -421,7 +421,7 @@
         - config.inc.php 파일 내 `$cfg['blowfish_secret'] = ''; /* YOU MUST FILL IN THIS FOR COOKIE AUTH! */` 부분을 편집할 것이며, `''`에 비밀번호를 넣으면 된다.
         - 암호화 문자열은 hash 방식으로 만들어진 password를 넣어야 하며, [링크](http://www.passwordtool.hu/blowfish-password-hash-generator) 등을 통해 만들 수 있다.
 
-            ![ft_server/images/Untitled%2012.png](ft_server/images/Untitled%2012.png)
+            ![images/Untitled%2012.png](images/Untitled%2012.png)
 
     **6.4.3 설정 적용하기**
 
@@ -471,7 +471,7 @@
     exit
     ```
 
-    ![ft_server/images/Untitled%2013.png](ft_server/images/Untitled%2013.png)
+    ![images/Untitled%2013.png](images/Untitled%2013.png)
 
     - MySQL 문법
         - `GRANT 권한 ON 데이터베이스.테이블 TO '아이디'@'호스트' IDENTIFIED BY '비밀번호'`
@@ -494,7 +494,7 @@
     - [localhost/phpmyadmin](http://localhost/phpmyadmin) 에 접속하여 확인한다.
     - 아이디는 root, 비밀번호는 mysql에서 설정한 비밀번호이다.
 
-    ![ft_server/images/Untitled%2014.png](ft_server/images/Untitled%2014.png)
+    ![images/Untitled%2014.png](images/Untitled%2014.png)
 
 7. Wordpress 설치
 
@@ -519,31 +519,31 @@
     - `cp var/www/html/wordpress/wp-config-sample.php var/www/html/wordpress/wp-config.php`
     - `wp-config.php` 파일을 본인의 password에 맞게 수정한다.
 
-        ![ft_server/images/Untitled%2015.png](ft_server/images/Untitled%2015.png)
+        ![images/Untitled%2015.png](images/Untitled%2015.png)
 
     **7.3 Wordpress 작동 확인**
 
     - `service nginx reload` 명령어로 변경사항을 적용시켜준다.
     - [localhost/wordpress](http://localhost/wordpress) 에 접속하면 다음과 같은 초기 설정 화면을 볼 수 있다.
 
-        ![ft_server/images/Untitled%2016.png](ft_server/images/Untitled%2016.png)
+        ![images/Untitled%2016.png](images/Untitled%2016.png)
 
     - 페이지를 만든 후 phpmyadmin에서 wordpress 데이터가 제대로 생성되었는지 확인한다.
 8. Autoindex 적용하기
     - 현재 localhost로 접속하면 다음과 같은 화면을 볼 수 있다.
 
-        ![ft_server/images/Untitled%2017.png](ft_server/images/Untitled%2017.png)
+        ![images/Untitled%2017.png](images/Untitled%2017.png)
 
     - autoindex란, 인덱스 페이지를 디렉토리 목록으로 나타내는 방법을 말한다.
     - `/etc/nginx/sites-available/default` 파일을 편집하여 autoindex 기능을 활성화시킬 수 있다.
         - [http://nginx.org/en/docs/http/ngx_http_autoindex_module.html](http://nginx.org/en/docs/http/ngx_http_autoindex_module.html)
     - `/etc/nginx/sites-available/default` 파일을 다음과 같이 수정해준다.
 
-        ![ft_server/images/Untitled%2018.png](ft_server/images/Untitled%2018.png)
+        ![images/Untitled%2018.png](images/Untitled%2018.png)
 
     - `service nginx reload` 명령어로 변경사항을 적용시켜준 후 [localhost](http://localhost) 에 접속하면 autoindex가 적용된 화면을 볼 수 있다.
 
-        ![ft_server/images/Untitled%2019.png](ft_server/images/Untitled%2019.png)
+        ![images/Untitled%2019.png](images/Untitled%2019.png)
 
 - 유용한 링크
 
