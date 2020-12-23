@@ -3,6 +3,8 @@
 
 ## Common Circle
 
+> 42seoul 규칙 상 코드는 삭제하였습니다.
+
 | Circle | Project                              |  Language  | Final Marks | Date of Completion |
 | :----: | :----------------------------------- | :--------: | :---------: | :----------------: |
 |   0    | [**Libft**](./libft)                 |     C      |     115     |   2020. 07. 13.    |
@@ -28,3 +30,4 @@
 |   5    | ft_irc                               |            |             |   closed           |
 |        | webserv                              |            |             |   closed           |
 |   6    | ft_transcendence                     |            |             |   closed           | 
+
