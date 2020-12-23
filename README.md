@@ -17,7 +17,7 @@
 |        | **Exam Rank 03**                     |     C      |     100     |   2020. 10. 20.    |
 |   3    | [**libasm**](./libasm)               |  assembly  |     125     |   2020. 10. 26.    | 
 |        | [**ft_services**](./ft_services)     | kubernetes |     100     |   2020. 11. 26.    |
-|        | minishell                            |     C      |     100     |   in progress      | 
+|        | [**minishell**]                      |     C      |             |   in progress      | 
 |   4    | CPP Module 01                        |            |             |   closed           |
 |        | CPP Module 02                        |            |             |   closed           |
 |        | CPP Module 03                        |            |             |   closed           |
