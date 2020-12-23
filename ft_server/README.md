@@ -544,13 +544,3 @@
     - `service nginx reload` 명령어로 변경사항을 적용시켜준 후 [localhost](http://localhost) 에 접속하면 autoindex가 적용된 화면을 볼 수 있다.
 
         ![images/Untitled%2019.png](images/Untitled%2019.png)
-
-- 유용한 링크
-
-    [https://www.opentutorials.org/course/228/4894](https://www.opentutorials.org/course/228/4894) TLS, SSL
-
-    [http://pyrasis.com/Docker/Docker-HOWTO](http://pyrasis.com/Docker/Docker-HOWTO) Docker
-
-[입력 명령어 모음](https://www.notion.so/0771e6a1185a4f6587dc170182807d83)
-
-[Dockerfile](https://www.notion.so/Dockerfile-aa46a128a69549d59de148a033b73234)
