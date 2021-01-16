@@ -17,8 +17,9 @@
 |        | **Exam Rank 03**                     |     C      |     100     |   2020. 10. 20.    |
 |   3    | [**libasm**](./libasm)               |  assembly  |     125     |   2020. 10. 26.    | 
 |        | [**ft_services**](./ft_services)     | kubernetes |     100     |   2020. 11. 26.    |
-|        | [**minishell**]                      |     C      |             |   in progress      | 
-|   4    | CPP Module 01                        |            |             |   closed           |
+|        | [**minishell**](./minishell)         |     C      |     100     |   2020. 01. 13.    | 
+|   4    | Philosophers                         |            |             |   closed           | 
+|        | CPP Module 01                        |            |             |   closed           |
 |        | CPP Module 02                        |            |             |   closed           |
 |        | CPP Module 03                        |            |             |   closed           |
 |        | CPP Module 04                        |            |             |   closed           |
@@ -26,8 +27,7 @@
 |        | CPP Module 06                        |            |             |   closed           |
 |        | CPP Module 07                        |            |             |   closed           |
 |        | CPP Module 08                        |            |             |   closed           |
-|        | Philosophers                         |            |             |   closed           | 
-|   5    | ft_irc                               |            |             |   closed           |
+|   5    | ft_containers                        |            |             |   closed           |
 |        | webserv                              |            |             |   closed           |
 |   6    | ft_transcendence                     |            |             |   closed           | 
 
