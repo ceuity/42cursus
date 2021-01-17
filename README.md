@@ -1,7 +1,9 @@
-# 42seoul 기록 저장소
+# 42cursus
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/42_Logo.svg" alt="42 Logo.svg" width="142"></p>
 
 ## Common Circle
+
+> 42seoul 규칙 상 코드는 삭제하였습니다.
 
 | Circle | Project                              |  Language  | Final Marks | Date of Completion |
 | :----: | :----------------------------------- | :--------: | :---------: | :----------------: |
@@ -15,8 +17,9 @@
 |        | **Exam Rank 03**                     |     C      |     100     |   2020. 10. 20.    |
 |   3    | [**libasm**](./libasm)               |  assembly  |     125     |   2020. 10. 26.    | 
 |        | [**ft_services**](./ft_services)     | kubernetes |     100     |   2020. 11. 26.    |
-|        | minishell                            |     C      |     100     |   in progress      | 
-|   4    | CPP Module 01                        |            |             |   closed           |
+|        | [**minishell**](./minishell)         |     C      |     100     |   2020. 01. 13.    | 
+|   4    | Philosophers                         |            |             |   closed           | 
+|        | CPP Module 01                        |            |             |   closed           |
 |        | CPP Module 02                        |            |             |   closed           |
 |        | CPP Module 03                        |            |             |   closed           |
 |        | CPP Module 04                        |            |             |   closed           |
@@ -24,7 +27,7 @@
 |        | CPP Module 06                        |            |             |   closed           |
 |        | CPP Module 07                        |            |             |   closed           |
 |        | CPP Module 08                        |            |             |   closed           |
-|        | Philosophers                         |            |             |   closed           | 
-|   5    | ft_irc                               |            |             |   closed           |
+|   5    | ft_containers                        |            |             |   closed           |
 |        | webserv                              |            |             |   closed           |
 |   6    | ft_transcendence                     |            |             |   closed           | 
+
