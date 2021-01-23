@@ -171,6 +171,7 @@ things useful for the project.
     [https://wiki.alpinelinux.org/wiki/MariaDB](https://wiki.alpinelinux.org/wiki/MariaDB)
 
     그냥 openrc 써서 sql파일만 넣어주고 서비스 종료 후 데몬 실행
+    wordpress.sql 파일을 mysql에 import할 때 wordpress.sql 파일에서 USE wordpress; 로 DB를 사용하게 해주어야 한다.
 
     ```bash
     #!/bin/sh
