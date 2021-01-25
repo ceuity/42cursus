@@ -234,6 +234,8 @@ things useful for the project.
     [https://blog.voidmainvoid.net/91](https://blog.voidmainvoid.net/91)
 
     [https://support.cloudz.co.kr/support/solutions/articles/42000044793-telegraf-설정-가이드](https://support.cloudz.co.kr/support/solutions/articles/42000044793-telegraf-%EC%84%A4%EC%A0%95-%EA%B0%80%EC%9D%B4%EB%93%9C)
+    
+    telegraf.conf 파일에 influxdb-service:8086 
 
     docker plugin을 사용하면 각 service별로 telegraf를 설치하지 않고 telegraf pods 하나로 data를 관리할 수 있다. [https://github.com/influxdata/telegraf/tree/master/plugins/inputs/docker](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/docker)
 
