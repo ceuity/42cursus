@@ -18,7 +18,7 @@
 |   3    | [**libasm**](./libasm)               |  assembly  |     125     |   2020. 10. 26.    | 
 |        | [**ft_services**](./ft_services)     | kubernetes |     100     |   2020. 11. 26.    |
 |        | [**minishell**](./minishell)         |     C      |     100     |   2020. 01. 13.    | 
-|   4    | Philosophers                         |            |             |   closed           | 
+|   4    | [**Philosophers**](./philosophers)   |     C      |     100     |   2021. 02. 03     | 
 |        | CPP Module 01                        |            |             |   closed           |
 |        | CPP Module 02                        |            |             |   closed           |
 |        | CPP Module 03                        |            |             |   closed           |
