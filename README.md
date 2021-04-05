@@ -3,7 +3,7 @@
 
 ## Common Circle
 
-> 42seoul 규칙 상 코드는 삭제하였습니다.
+### 42seoul 규칙 상 코드는 삭제하였습니다.
 
 | Circle | Project                              |  Language  | Final Marks | Date of Completion |
 | :----: | :----------------------------------- | :--------: | :---------: | :----------------: |
