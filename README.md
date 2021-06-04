@@ -19,15 +19,16 @@
 |        | [**ft_services**](./ft_services)     | kubernetes |     100     |   2020. 11. 26.    |
 |        | [**minishell**](./minishell)         |     C      |     100     |   2020. 01. 13.    | 
 |   4    | [**Philosophers**](./philosophers)   |     C      |     100     |   2021. 02. 03.    |
-|        | **Exam Rank 04**                     |     C      |     100     |   2020. 02. 26.    |
-|        | CPP Module 01                        |            |             |   closed           |
-|        | CPP Module 02                        |            |             |   closed           |
-|        | CPP Module 03                        |            |             |   closed           |
-|        | CPP Module 04                        |            |             |   closed           |
-|        | CPP Module 05                        |            |             |   closed           |
-|        | CPP Module 06                        |            |             |   closed           |
-|        | CPP Module 07                        |            |             |   closed           |
-|        | CPP Module 08                        |            |             |   closed           |
+|        | **Exam Rank 04**                     |     C      |     100     |   2021. 02. 26.    |
+|        | CPP Module 00                        |     C++    |     100     |   2021. 05. 19.    |
+|        | CPP Module 01                        |     C++    |     100     |   2021. 05. 28.    |
+|        | CPP Module 02                        |     C++    |     100     |   2021. 05. 28.    |
+|        | CPP Module 03                        |     C++    |     100     |   2021. 05. 28.    |
+|        | CPP Module 04                        |     C++    |     100     |   2021. 05. 31.    |
+|        | CPP Module 05                        |     C++    |     100     |   2021. 05. 31.    |
+|        | CPP Module 06                        |     C++    |     100     |   2021. 05. 31.    |
+|        | CPP Module 07                        |     C++    |     100     |   2021. 06. 03.    |
+|        | CPP Module 08                        |     C++    |     100     |   2021. 06. 03.    |
 |   5    | ft_containers                        |            |             |   closed           |
 |        | webserv                              |            |             |   closed           |
 |   6    | ft_transcendence                     |            |             |   closed           | 
